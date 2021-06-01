@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+nav {
+    border-bottom: #ffbe5d ridge 3px;
+}
+
+h5 {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    background-color: #ffbe5d;
+}
+
+.navbar-toggler:hover {
+    background-color: #ff9900;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #ffbe5d;
+}
+/* FIN NAV BAR */
+
+
+/* Style du formulaire de connexion */
+.b-container {
+    background-image: url(./fond-accueil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+    }
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.651) !important;
+    }
+
+.social-icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    }
+
+span .fa-facebook-square:hover {
+    color: #3b5998;
+    cursor: pointer;
+    }
+
+span .fa-google-plus-square:hover {
+    color: #db3236;
+    cursor: pointer;
+    }
+
+span .fa-twitter-square:hover {
+    color: #1DA1F2;
+    cursor: pointer;
+    }
+
+.card-header h3 {
+    color: rgb(0, 0, 0);
+    }
+
+.social-icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #9ed0ff;
+    color: black;
+    border:0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+    color: black;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login-btn {
+    color: black;
+    background-color: #9ed0ff;
+    width: 100px;
+}
+
+.login-btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.card-footer a {
+        color: #ff8b55ab;
+}
+
+.card-footer a:hover {
+        color: black;
+}
+
+.links {
+    color: rgb(0, 0, 0);
+}
+
+.links a {
+        margin-left: 4px;
+}
+
+
+/* Style pied de page */
+article {
+    text-align: center;
+    position: relative;
+    border-top: ridge 2px #797979;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #ffffff;
+}
+
+footer {
+    padding-top: 15px;
+}

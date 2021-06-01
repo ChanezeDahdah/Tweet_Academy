@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff0e6;
+    width: 100%;
+}
+
+nav {
+    border-bottom: #ffbe5d ridge 3px;
+}
+
+.nav-link {
+    text-align: center;
+    color: #ff8b55ab;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    background-color: #ff8b5577;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #0000002a;
+}
+
+.jumbotron {
+    text-align: center;
+    position: relative;
+    background-image: url('./');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    height: 60vh;
+    z-index: -2;
+    border-bottom: #ffbe5d ridge 3px;
+    padding-top: 40px;
+}
+
+.display-4 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.describe {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inscription {
+    background-color: #9ed0ff;
+    border: ridge 2px #ffbe5d;
+}
+
+.connexion {
+    background-color: #ffb9b9;
+    border: ridge 2px #ffbe5d;
+}
+
+.inscription:hover {
+    text-decoration: none;
+    border: ridge 3px #ffb9b9;
+    box-shadow: 10px 5px 5px #0000002a;
+}
+
+.connexion:hover {
+    text-decoration: none;
+    border: ridge 3px #9ed0ff;
+    box-shadow: 10px 5px 5px #0000002a;
+}
+
+article {
+    text-align: center;
+    position: relative;
+    border-top: ridge 2px #797979;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: #797979;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #000000;
+}
+
+footer {
+    padding-top: 15px;
+}

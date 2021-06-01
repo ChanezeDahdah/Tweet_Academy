@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+}
+
+nav {
+    border-bottom: #ffbe5d ridge 3px;
+}
+
+h5 {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    background-color: #ffbe5d;
+}
+
+.navbar-toggler:hover {
+    background-color: #ff9900;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: #ffbe5d;
+}
+/* FIN NAV BAR */
+
+.header {
+    border: 1px solid black;
+    border-bottom: none;
+    max-width: 520px;
+    margin: auto;
+}
+
+.banner {
+    width: 520px;
+    height: 210px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.profileHeaderImg {
+    position: absolute;
+    top: 240px;
+    width: 128px;
+    height: 128px;
+    border-radius: 360px;
+}
+
+.profileHeaderImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 120px;
+}
+
+.followButton {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 320px;
+    right: 185px;
+}
+
+.followButton button {
+    margin: auto;
+}
+
+.profileUser {
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.profileBio {
+    padding: 10px;
+}
+
+.follow {
+    padding: 5px;
+    top: -120px;
+}
+
+.follow>* {
+    padding: 20px;
+}
+
+/* Style pied de page */
+article {
+    text-align: center;
+    position: relative;
+    border-top: ridge 2px #797979;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+
+.link {
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #ffffff;
+}
+
+footer {
+    padding-top: 15px;
+}

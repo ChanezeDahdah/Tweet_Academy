@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+h1 {
+    color: #8e5959;
+    margin-top: 5px;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+}
+<<<<<<< HEAD
+.container 
+{
+    max-width: 3000px;
+    margin: 0 auto;
+}
+=======
+
+#navbarSupportedContent {
+    background-color: #ffb9b9;
+    width: 30%;
+}
+=======
+    h1 {
+        color: #8e5959;
+        margin-top: 5px;
+        text-align: center;
+        background-color: black;
+        padding: 10px;
+    }
+    
+    .container {
+        max-width: 3000px;
+        margin: 0 auto;
+    }
+>>>>>>> 0006e586ba67f9bc63971402ce486534a7a5134d
+>>>>>>> 0a7455343055cc79cc9ee3ca18bbfa7ee02ebb7d
